@@ -1,0 +1,23 @@
+.buttons{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    grid-row: 4;
+    grid-column: 2;
+    align-self: flex-end;
+    margin-bottom: 2vh;
+    width: 100%;
+    height: 3vh;
+    justify-content: center;
+}
+.buttons button{
+    width: 30%;
+    height: 100%;
+    background-color: #ecf6ff3a;
+    border: transparent;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.25);
+}
+
+button:hover{
+
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+*{
+    border-radius: 0;
+}
+*:focus,
+*:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 580px 1fr;
+    grid-template-rows:1fr 2fr 0fr 1fr;
+
+    background: linear-gradient(#CFAFA3, #CFAFA314);
+  
+}
